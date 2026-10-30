@@ -11,5 +11,6 @@ public class Main {
         sach.hienThiThongTin();
         System.out.println("Thành tiền: " + sach.tinhThanhTien());
         sc.close();
+        System.out.println("Phí vận chuyển (5%): " + sach.tinhPhiVanChuyen());
     }
 }

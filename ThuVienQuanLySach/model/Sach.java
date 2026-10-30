@@ -40,4 +40,8 @@ public class Sach {
     public double tinhThanhTien() {
         return this.donGia * this.soLuong;
     }
+    // Bài 3: Phí vận chuyển = 5% giá trị sách
+    public double tinhPhiVanChuyen() {
+        return tinhThanhTien() * 0.05;
+    }
 }
