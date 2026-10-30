@@ -36,4 +36,8 @@ public class Sach {
         System.out.println("Đơn giá: " + donGia);
         System.out.println("Số lượng: " + soLuong);
     }
+    // Bài 2: Tính thành tiền = đơn giá * số lượng
+    public double tinhThanhTien() {
+        return this.donGia * this.soLuong;
+    }
 }

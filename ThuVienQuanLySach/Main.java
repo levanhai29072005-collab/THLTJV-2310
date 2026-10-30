@@ -9,7 +9,7 @@ public class Main {
         System.out.println("=== NHẬP THÔNG TIN SÁCH ===");
         sach.nhapThongTin(sc);
         sach.hienThiThongTin();
-
+        System.out.println("Thành tiền: " + sach.tinhThanhTien());
         sc.close();
     }
 }
