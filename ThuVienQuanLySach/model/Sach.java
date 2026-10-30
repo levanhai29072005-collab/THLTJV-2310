@@ -9,9 +9,7 @@ public class Sach {
     private int namXuatBan;
     private double donGia;
     private int soLuong;
-
     public Sach() {}
-
     public void nhapThongTin(Scanner sc) {
         System.out.print("Nhập mã sách: ");
         this.maSach = sc.nextLine();
@@ -43,5 +41,9 @@ public class Sach {
     // Bài 3: Phí vận chuyển = 5% giá trị sách
     public double tinhPhiVanChuyen() {
         return tinhThanhTien() * 0.05;
+    }
+    // Bài 4: Tổng tiền nhập = Thành tiền + Phí vận chuyển
+    public double tinhTongTienNhap() {
+        return tinhThanhTien() + tinhPhiVanChuyen();
     }
 }
